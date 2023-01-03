@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.0'
+ruby '3.0.1'
 
 gem 'bootsnap', require: false
 gem 'importmap-rails'
@@ -22,11 +22,11 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'faker'
   gem 'rspec-rails'
-  gem 'rubocop'
 end
 
 group :development do
   gem 'web-console'
+  gem 'rubocop'
 end
 
 group :test do
