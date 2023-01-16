@@ -25,8 +25,8 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console'
   gem 'rubocop'
+  gem 'web-console'
 end
 
 group :test do
